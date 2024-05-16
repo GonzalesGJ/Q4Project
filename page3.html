@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>JS Project</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        .header {
+            border: 5px double black;
+            margin-bottom: 20px;
+            text-align: center;
+            background-color: ghostwhite;
+            opacity: 0.7;
+            padding: 15px;
+        }
+
+        body {
+            background-image: url(https://i.pinimg.com/originals/12/71/49/1271499f4afdd1807fd1d497ee24dbce.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: "Times New Roman", Times, serif;
+            text-align: center;
+        }
+
+        .box {
+            gap: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .intro {
+            margin: auto;
+            padding: 10px;
+            text-align: center;
+            background-color: ghostwhite;
+            opacity: 0.85;
+            width: 800px;
+        }
+        
+        .container {
+            border: 1px solid grey;
+            width: 300px;
+            padding: 10px;
+            text-align: center;
+            margin: 5px;
+            background-color: ghostwhite;
+            opacity: 0.85;
+            border-radius: 8px;
+            box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        }
+
+        .footer1 {
+            border: 5px double black;
+            background-color: ghostwhite;
+            padding: 10px;
+            opacity: 0.85;
+            margin-top: 9px;
+            text-align: center;
+        }
+
+        h6 {
+            letter-spacing: 5px
+        }
+
+       .footer2 {
+            text-align: center;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            height: 90px;
+            width: 100%;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand"><img src="logo.png" width="75px" class="rounded-circle"></a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="mainpage.html">MAIN PAGE</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="overview.html">OVERVIEW</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="page2.html">FIRST QUARTER</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="page3.html">SECOND QUARTER</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="page4.html">THIRD QUARTER</a>
+                </li>  
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="page5.html">COMMENT SECTION</a> <!-- corrected spelling -->
+                </li>
+            </ul>
+
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search"> <button class="btn btn-warning" type="button">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="header">
+        <h1>PHOTO GALLERY</h1>
+        <h3>Philippines Edition</h3>
+    </div>
+
+    <div class="intro">
+       <strong>Welcome to the Philippines</strong>, a beautiful country <em>rich in nature and history!</em> With stunning beaches, lush landscapes, and historical sites, it's an <em>ideal</em> place to explore. Experience warm hospitality, diverse culture, and create lasting memories in this captivating destination. <strong>Come, discover the Philippines</strong> — where <em>beauty and history make every journey unforgettable!</em>
+    </div>
+
+    <div class="box">
+        <div class="container"> 
+            <h2>Magellan's Cross</h2>
+            <p>- This cross is a must-see monument, as it is one of the most iconic historical landmarks in Cebu City. Magellan's Cross is a reminder of how Christianity was brought to the Philippines.</p>
+            <button><a href="https://www.tripadvisor.com.ph/Attraction_Review-g298460-d320852-Reviews-Magellan_s_Cross-Cebu_City_Cebu_Island_Visayas.html">Read More>></a></button>
+        </div>
+
+        <div class="container">
+            <img src="https://www.travelandleisure.com/thmb/LrRPOL02yLrcupBNPKARdCwyANU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/chocolate-hills-PHIL0116-3a853dd3c6704d84bb5162bb37404279.jpg" width="280px">
+        </div>
+
+        <div class="container">
+            <h2>Ariel's Point</h2>
+            <p>- In Boracay, it is known for its 15-meter high "diving boards" where adventure junkies can leap off into the clear water. Even if you're not up for the thrill, this area has one of the clearest waters and richest marine life in Boracay.</p>
+            <button><a href="https://www.tripadvisor.com.ph/Attraction_Review-g294260-d1777846-Reviews-Ariel_s_Point-Boracay_Malay_Aklan_Province_Panay_Island_Visayas.html">Read More>></a></button>
+        </div>
+
+        <div class="container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/The_Magellan%27s_Cross.jpg/800px-The_Magellan%27s_Cross.jpg?20120903053503" width="280px">
+        </div>
+
+        <div class="container">
+            <h2>Chocolate Hills</h2>
+            <p>- These hills are the Philippines' third National Geographical Monument, located on the island of Bohol. They also look like chocolate truffles due to their rounded hills appearance that turns brown during the dry season.</p>
+            <button><a href="https://www.tripadvisor.com.ph/Attraction_Review-g294259-d593829-Reviews-Chocolate_Hills_Natural_Monument-Bohol_Island_Bohol_Province_Visayas.html">Read More>></a></button>
+        </div>
+
+        <div class="container">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/65/43/ad/ariel-s-point.jpg?w=1200&h=-1&s=1" width="280px">
+        </div>
+    </div>
+
+    <div class="footer1">
+        <h2>Sources:</h2>
+        <ul>
+            <li><a href="https://www.tripadvisor.com.ph/Attraction_Review-g294260-d1777846-Reviews-Ariel_s_Point-Boracay_Malay_Aklan_Province_Panay_Island_Visayas.html">Anonymous. (n.d.). Ariel's Point. Tripadvisor. Retrieved from: https://www.tripadvisor.com.ph/Attraction_Review-g294260-d1777846-Reviews-Ariel_s_Point-Boracay_Malay_Aklan_Province_Panay_Island_Visayas.html</a></li>
+            <li><a href="https://www.travelandleisure.com/attractions/landmarks-monuments/chocolate-hills-philippines">Owen, E. (2023, March 8). All You Need to Know About the Chocolate Hills in the Philippines. TravelandLeisure. Retrieved from: https://www.travelandleisure.com/attractions/landmarks-monuments/chocolate-hills-philippines</a></li>
+            <li><a href="https://www.pinterest.ph/pin/26-philippines-flag-wallpapers-on-wallpapersafari--481814860143997559/">Anonymous. (n.d.). 26 Philippines Flag Wallpapers. Pinterest. Retrieved from: https://www.pinterest.ph/pin/26-philippines-flag-wallpapers-on-wallpapersafari--481814860143997559/</a></li>
+            <li><a href="https://commons.wikimedia.org/wiki/File:The_Magellan%27s_Cross.jpg">Anonymous. (n.d.). The Magellan's Cross.jpg. Wikimedia Commons. Retrieved from: https://commons.wikimedia.org/wiki/File:The_Magellan%27s_Cross.jpg</a></li>
+        </ul>
+    </div>
+
+    <div class="footer2 bg-dark mt-3">
+        <h6>Follow Us</h6>
+        <img src="https://1000logos.net/wp-content/uploads/2017/02/Facebook-Logosu.png" width="40px" class="rounded-circle" alt="Facebook-Logosu">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/132px-Instagram_logo_2016.svg.png?20210403190622" width="25px" class="rounded-circle" alt="132px-Instagram_logo_2016">
+        <img src="https://cdn.icon-icons.com/icons2/4029/PNG/512/twitter_x_new_logo_x_rounded_icon_256078.png" width="42px" class="rounded-circle" alt="twitter_x_new_logo_x_rounded_icon_256078">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/512px-Spotify_icon.svg.png" width="24px" class="rounded-circle" alt="512px-Spotify_icon">
+        <p>©2024 All rights reserved.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>JS Project</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-image: url(https://img.freepik.com/free-photo/grunge-style-old-red-paper-background-texture_1048-17742.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: whitesmoke;
+            background-color: #F2E8C6;
+            font-family: "Times New Roman", Times, serif;
+            text-align: center;
+        }
+
+        .container-fluid {
+            padding: 15px;
+        }
+
+        .socials {
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .home {
+            float: left;
+        }
+
+        .achievements {
+            gap: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .line-1,
+        .line-2 {
+            border: 0;
+            border-bottom: 1px solid black;
+        }
+
+        .footer1,
+        .footer2 {
+            text-align: center;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            height: 90px;
+            width: 100%;
+            color: white;
+        }
+
+        h6 {
+            letter-spacing: 5px;
+        }
+
+        .footer1 {
+            background: #999;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand"><img src="logo.png" width="75px" class="rounded-circle"></a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="mainpage.html">MAIN PAGE</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="overview.html">OVERVIEW</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="page2.html">FIRST QUARTER</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="page3.html">SECOND QUARTER</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="page4.html">THIRD QUARTER</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="page5.html">COMMENT SECTION</a>
+            </li>
+        </ul>
+
+        <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-warning" type="button">Search</button>
+        </form>
+    </div>
+</nav>
+
+<div class="container mt-3">
+    <strong><em>featured artist</em></strong>
+    <div class="container bg-dark" id="socials">
+        <a href="https://www.facebook.com/MsLeaSalonga/"><img src="https://1000logos.net/wp-content/uploads/2017/02/Facebook-Logosu.png" width="95px" class="rounded-circle" alt="Facebook-Logosu"></a>
+        <a href="https://www.instagram.com/msleasalonga/?hl=en"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/132px-Instagram_logo_2016.svg.png?20210403190622" width="50px" class="rounded-circle" alt="132px-Instagram_logo_2016"></a>
+        <a href="https://twitter.com/msleasalonga?lang=en"><img src="https://cdn.icon-icons.com/icons2/4029/PNG/512/twitter_x_new_logo_x_rounded_icon_256078.png" width="90px" class="rounded-circle" alt="twitter_x_new_logo_x_rounded_icon_256078"></a>
+        <a href="https://open.spotify.com/artist/1GlMjIezcLwV3OFlX0uXOv"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/512px-Spotify_icon.svg.png" width="45px" class="rounded-circle" alt="512px-Spotify_icon"></a>
+    </div>
+
+    <div class="container mt-3">
+        <img src="https://static.wikia.nocookie.net/disney/images/9/98/Lea_Salonga.jpg/revision/latest?cb=20231106175945" width="300px" class="img-thumbnail float-end">
+    </div>
+
+    <div class="container mt-3" id="home">
+        <h1><em>Lea Salonga Introduction</em></h1>
+        <p>Lea Salonga, an outstanding artist from Manila, Philippines, has made an indelible mark on the world of music and theater.</p><br>
+        <p>Her career took off with her debut as Kim in the 1989 West End production of "Miss Saigon," which later moved to Broadway in 1991, where she continued to captivate audiences.</p><br>
+        <p>Salonga's versatility as a singer shone through as she lent her voice to beloved Disney characters like Princess Jasmine in "Aladdin" (1992) and Fa Mulan in "Mulan" (1998), establishing herself as the first Asian actress to voice such iconic roles.</p><br>
+        <p>Making history, Lea Salonga became the first Asian actress to portray Éponine in the Broadway production of "Les Misérables" in 1993.</p><br>
+        <p>Beyond her artistic achievements, Salonga's charity work has also made a significant impact. She was appointed as a Goodwill Ambassador for the Food and Agriculture Organization of the United Nations in 2010, showcasing her commitment to positive change.</p><br>
+        <p>Recognized for her contributions, Salonga was named a Disney Legend in 2011, solidifying her status as a legendary figure in both theater and music.</p><br>
+        <p>In summary, Lea Salonga's exceptional talent, determination, and philanthropy have inspired artists worldwide, proving that success knows no bounds when paired with skill, perseverance, and hard work.</p>
+    </div>
+
+    <div class="container mt-3 achievements">
+        <div class="container mt-3 line-1"></div>
+        <h3><em>LEA SALONGA</em></h3>
+        <img src="https://assets.playbill.com/editorial/_articleLeadImage/d37cb33115c9c4bbb60a230494adaace-lea-salonga-graphic-hr.jpg" width="400px" class="rounded-circle" alt="d37cb33115c9c4bbb60a230494adaace-lea-salonga-graphic-hr">
+        <img src="https://live-production.wcms.abc-cdn.net.au/12dd3a7b4b3abbfdd2eefcdcc842d82a?impolicy=wcms_crop_resize&amp;cropH=1689&amp;cropW=3000&amp;xPos=0&amp;yPos=8&amp;width=862&amp;height=485" width="400px" class="rounded-circle" alt="12dd3a7b4b3abbfdd2eefcdcc842d82a">
+        <img src="https://mickeyblog.com/wp-content/uploads/2020/03/Lea.png" width="400px" class="rounded-circle" alt="Lea">
+    </div>
+
+    <div class="container mt-3 footer1">
+        <h2><em>Related Articles:</em></h2>
+        <a href="https://leasalonga.com/">Lea Salonga — Official Website. (n.d.). Lea Salonga. https://leasalonga.com/</a>
+    </div>
+
+    <div class="footer2 bg-dark mt-3">
+        <h6>Follow Us</h6>
+        <img src="https://1000logos.net/wp-content/uploads/2017/02/Facebook-Logosu.png" width="40px" class="rounded-circle" alt="Facebook-Logosu">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/132px-Instagram_logo_2016.svg.png?20210403190622" width="25px" class="rounded-circle" alt="132px-Instagram_logo_2016">
+        <img src="https://cdn.icon-icons.com/icons2/4029/PNG/512/twitter_x_new_logo_x_rounded_icon_256078.png" width="42px" class="rounded-circle" alt="twitter_x_new_logo_x_rounded_icon_256078">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/512px-Spotify_icon.svg.png" width="24px" class="rounded-circle" alt="512px-Spotify_icon">
+        <p>©2024 All rights reserved.</p>
+    </div>
+</div>
+</body>
+</html>
